@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>630</width>
+    <height>684</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(241, 219, 253);
+alternate-background-color: rgb(220, 138, 221);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>591</width>
+      <height>811</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="0" colspan="5">
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(97, 53, 131);
+background-color: rgb(241, 219, 253);</string>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>Окрасы</string>
+        </attribute>
+        <widget class="QWidget" name="gridLayoutWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>561</width>
+           <height>271</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="3" column="1">
+           <widget class="QPushButton" name="c14">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="c9">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QPushButton" name="c8">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QPushButton" name="c15">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="c7">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QPushButton" name="c16">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="c4">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="c12">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="c5">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="c13">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="c2">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="c6">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="c1">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="c10">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="c3">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="c11">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">colors</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_2">
+        <attribute name="title">
+         <string>Детали</string>
+        </attribute>
+        <widget class="QWidget" name="gridLayoutWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>581</width>
+           <height>191</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="2">
+           <widget class="QPushButton" name="eyes">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">details</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="earbrushes">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">details</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="fur">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">details</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="ears">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">details</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="nose">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">details</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="curly_fur">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">details</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_3">
+        <attribute name="title">
+         <string>Аксессуары</string>
+        </attribute>
+        <widget class="QWidget" name="gridLayoutWidget_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>0</y>
+           <width>571</width>
+           <height>261</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4" rowminimumheight="0,0">
+          <item row="1" column="2">
+           <widget class="QPushButton" name="ear_bow">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">accessories</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="feather">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">accessories</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="tag">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">accessories</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="flower">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">accessories</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pendant">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">accessories</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="bandana">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">accessories</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="wreath">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">accessories</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QPushButton" name="bow">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">accessories</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_4">
+        <attribute name="title">
+         <string>Фильтры</string>
+        </attribute>
+        <widget class="QTextBrowser" name="warning">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>10</y>
+           <width>581</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cantarell'; font-size:14pt; color:#e01b24;&quot;&gt;Внимание!&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cantarell'; font-size:11pt; color:#613583;&quot;&gt;Используйте фильтры только после завершения работы с окрасами, деталями и аксессуарами. В противном случае внесённые изменения не будут сохранены.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QWidget" name="gridLayoutWidget_5">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>100</y>
+           <width>581</width>
+           <height>181</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="2">
+           <widget class="QPushButton" name="sepia">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">filters</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="negate">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">filters</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="black_and_white">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">filters</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="blur">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">filters</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="rainbow">
+            <property name="text">
+             <string/>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">filters</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+     <item row="0" column="1" colspan="2">
+      <widget class="QLabel" name="picture">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>picture</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="main">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(241, 219, 253);
+color: rgb(97, 53, 131);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="random_button">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(97, 53, 131);
+background-color: rgb(241, 219, 253);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="draw_button">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(241, 219, 253);
+color: rgb(97, 53, 131);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="5">
+      <widget class="QProgressBar" name="progressBar">
+       <property name="value">
+        <number>24</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="profile_picture">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(97, 53, 131);
+background-color: rgb(220, 138, 221);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="profile_name">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(97, 53, 131);
+background-color: rgb(220, 138, 221);</string>
+    </property>
+    <property name="text">
+     <string>login</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="rating_widget">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(97, 53, 131);
+background-color: rgb(220, 138, 221);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="my_gallery">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>20</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(97, 53, 131);
+background-color: rgb(220, 138, 221);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_to_gallery_button">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>20</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(97, 53, 131);
+background-color: rgb(220, 138, 221);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_button">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>20</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(97, 53, 131);
+background-color: rgb(220, 138, 221);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="information">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>20</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(97, 53, 131);
+background-color: rgb(220, 138, 221);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>591</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(220, 138, 221);
+border-color: rgb(97, 53, 131);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear_button">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>20</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(97, 53, 131);
+background-color: rgb(220, 138, 221);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>gridLayoutWidget</zorder>
+   <zorder>profile_name</zorder>
+   <zorder>rating_widget</zorder>
+   <zorder>my_gallery</zorder>
+   <zorder>save_to_gallery_button</zorder>
+   <zorder>save_button</zorder>
+   <zorder>information</zorder>
+   <zorder>profile_picture</zorder>
+   <zorder>clear_button</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="accessories"/>
+  <buttongroup name="colors"/>
+  <buttongroup name="filters"/>
+  <buttongroup name="details"/>
+ </buttongroups>
+</ui>
